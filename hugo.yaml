@@ -1,0 +1,23 @@
+baseURL: 'https://codesix.net/'
+languageCode: en-gb
+title: Code Six
+theme: papermod
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+params:
+  social: true
+  editPost:
+    URL: 'https://github.com/alexmoras/website/content'
+    Text: Suggest Changes
+    appendFilePath: true
+  homeInfoParams:
+    Title: Hey there, I'm Alex 👋
+    Content: "I'm a software dev that likes to break things. This is where I host all my projects, note down how I did things, and share some (very) amateur photography."
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/alexmoras"
+  defaultTheme: auto
+  ShowReadingTime: true
